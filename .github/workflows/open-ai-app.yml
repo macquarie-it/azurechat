@@ -8,7 +8,7 @@ on:
 
   # Allow manual workflow trigger
   workflow_dispatch:
-
+  pull_request:
 jobs:
   build:
     runs-on: ubuntu-latest
